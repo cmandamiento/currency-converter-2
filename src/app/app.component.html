@@ -1,0 +1,8 @@
+<div class="app-root">
+  <div class="col">
+    <app-yen [value]="yen" (yenValue)="setYen($event)" (usdValue)="setUsd($event)"></app-yen>
+  </div>
+  <div class="col">
+    <app-usd [value]="usd" (yenValue)="setYen($event)" (usdValue)="setUsd($event)"></app-usd>
+  </div>
+</div>
